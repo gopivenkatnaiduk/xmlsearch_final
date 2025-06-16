@@ -60,6 +60,8 @@ function App() {
         matchingData.push({
           FieldCode: code,
           Formula: formula,
+          Calculated: calculatedValue,
+          [searchTag]: searchValue.toUpperCase(),
         });
       }
     });
