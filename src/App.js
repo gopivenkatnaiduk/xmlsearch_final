@@ -17,7 +17,7 @@ function App() {
     reader.onload = (event) => setXmlContent(event.target.result);
     reader.readAsText(file);
   };
-
+//handlesearch
   const handleSearch = () => {
     if (!xmlContent) {
       alert("Please upload an XML file first.");
